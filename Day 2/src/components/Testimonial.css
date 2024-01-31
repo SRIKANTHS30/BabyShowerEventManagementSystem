@@ -1,0 +1,74 @@
+.hii {
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat", sans-serif;
+}.testimonials {
+  position: relative;
+  height: 80vh; /* Set height to 60% of the viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("D:\\Advanced_App\\frontend\\src\\assets\\cardBac.png");
+  background-size: cover;
+  background-position: right bottom;
+  background-attachment: fixed;
+  color: #434343;
+  text-align: center;
+  background-color: lavender;
+  background-repeat: no-repeat;
+}
+
+.testimonial-inner {
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 40px 20px;
+}
+
+.border {
+  width: 160px;
+  height: 5px;
+  background: #6ab04c;
+  margin: 26px auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col {
+  flex: 33.33%;
+  max-width: 33.33%;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.testimonial {
+  background: #fff;
+  padding: 30px;
+}
+
+.testimonial img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.stars {
+  color: #f0932b;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 600px) {
+  /* Adjust background image height for smaller screens */
+  .testimonials {
+    height: 60vh; /* Set height to 50% of the viewport height for smaller screens */
+  }
+}

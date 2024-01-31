@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+.divpara{
+    font-size: 16px;
+    color: #0e0c0c;
+    align-items: center;
+}
+.divbox {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem 25px;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
+
+.img1
+{
+    height: 10rem;
+}
+.innerWrap {
+    width: 1200px;
+    margin-left: 20rem;
+    padding: 0 15px;
+}
+.mfflop{
+    display: flex;
+    flex-wrap: wrap;
+}
+.divimg{
+    width: 60%;
+    height: 50%;
+}
+.divttl{
+    margin-top: 2rem;
+    font-weight: 600;
+}
+.divpara{
+    margin-top: 2rem;
+}
+.toprflcont {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    margin: 15px 0;
+    justify-content: flex-start;
+}
+.hdrtxt {
+    font-size: 22px;
+    font-weight: 700;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-right: auto; */
+}
+.zig-zag {
+    max-width: 120rem; /* Adjust as needed */
+  }
+  .bac2{
+    background-color: white;
+    
+
+  }
+  .he2{
+    text-align: center;
+    
+    font-size:2rem;
+    font-family: 'Lilita One', sans-serif;
+  }
+  .p1{
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+    margin-top: 1rem;
+    padding-top: 4rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  }
+  

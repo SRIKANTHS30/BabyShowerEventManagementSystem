@@ -1,0 +1,61 @@
+/* Home.css */
+.body{
+  background-color: #fff;
+}
+.home-page {
+    max-width: 100rem;
+    margin: 1px auto;
+    padding: 20px;
+    height: 20rem;
+    background-image: url('https://hosting.renderforestsites.com/5699226/990451/media/f7791e5e16e173a71c28a4c5d89cd45e.jpg'); /* Change the path accordingly */
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 10rem;
+    position: relative;
+    background-color: white;
+    color: #ffffff; /* Set text color to white or adjust as needed */
+  }
+  
+  header1 {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: black;
+  }
+   .hero-section {
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    color: black;
+  }
+  
+  .h2 {
+    color: #ff0000;
+    text-align: center;
+    margin-left: 3rem;
+    padding-top: 10rem;
+  }
+  
+  .p {
+    color: #ffffff;
+    margin-left: -115rem;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+  }
+  .home1{
+    background-color: #ffffff;
+    text-align: center;  
+  }
+  .home2{
+    margin-top: 5rem;
+  }

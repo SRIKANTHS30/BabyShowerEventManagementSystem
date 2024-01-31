@@ -1,0 +1,146 @@
+/* AddTheme.css */
+
+.add-theme-form {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-theme-form h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .add-theme-form label {
+    display: block;
+    margin: 15px 0;
+    color: #555;
+  }
+  
+  .add-theme-form input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-top: 5px;
+  }
+  
+  .add-theme-form button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .added-themes {
+    margin-top: 20px;
+  }
+  
+  .added-themes h3 {
+    color: #333;
+  }
+  
+  .added-themes ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .added-themes li {
+    margin-bottom: 10px;
+  }
+  
+  /* ViewEditBabyShowerTheme.css */
+  
+  .babyshower-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .view-babyshower-container {
+    width: 70%;
+  }
+  
+  .filter-container {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .filter-container select,
+  .filter-container input {
+    margin-right: 10px;
+    padding: 8px;
+  }
+  
+  .babyshower-themes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .babyshower-theme {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .price-box {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .babyshower-theme img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .details h3 {
+    color: #333;
+  }
+  
+  .details p {
+    color: #555;
+  }
+  
+  .rating {
+    margin-top: 10px;
+  }
+  
+  .rating span {
+    color: #f8d352;
+  }
+  
+  .date {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .book-babyshower {
+    margin-top: 10px;
+  }
+  
+  .book-button {
+    background-color: #f44336;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* You can customize and extend the styles as needed. */
+  
