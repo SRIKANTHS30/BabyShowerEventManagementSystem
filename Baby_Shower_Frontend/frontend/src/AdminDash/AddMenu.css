@@ -1,0 +1,36 @@
+.food-menu-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .food-menu-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .food-menu-form input,
+  .food-menu-form textarea,
+  .food-menu-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+  
+  .food-menu-form button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 20px;
+    cursor: pointer;
+  }
+  
+  .food-menu-form button:hover {
+    background-color: #45a049;
+  }
+  

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+    .how-to-host-baby-shower {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Lilita One', sans-serif;
+  }
+  
+  .title4 {
+    font-size: 2.5rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    color: #444;
+    font-family: 'Lilita One', sans-serif;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #777;
+  }
+  
+  .content-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* 1*2 layout */
+    gap: 2rem; /* Adjust the gap between text and video */
+  }
+  
+  .video-content {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 aspect ratio */
+  }
+  
+  .video-content iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
